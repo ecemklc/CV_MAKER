@@ -1,0 +1,15 @@
+RewriteEngine On
+
+ErrorDocument 404 /site/hata.php
+
+RewriteRule ^anasayfa index.php [L,NC]
+RewriteRule ^hakkimda hakkimda.php [L,NC]
+RewriteRule ^baslangic baslangic.php [L,NC]
+RewriteRule ^iletisim iletisim.php [L,NC]
+RewriteRule ^portfolyo portfolyo.php [L,NC]
+RewriteRule ^hata hata.php [L,NC]
+RewriteRule ^kullanim kullanim.php [L,NC]
+RewriteRule ^ornek ornek.php [L,NC]
+RewriteRule ^sablon sablon.php [L,NC]
+RewriteRule ^bilgiler bilgiler.php [L,NC]
+RewriteRule ^onizleme onizleme.php [L,NC]
